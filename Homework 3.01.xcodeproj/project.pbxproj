@@ -34,10 +34,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		484E78732CC69B1D0086DD87 /* Exceptions for "Homework 3.01" folder in "Homework 3.01" target */ = {
+		484E78AB2CC6C45A0086DD87 /* Exceptions for "Homework 3.01" folder in "Homework 3.01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 484E784A2CC69B1B0086DD87 /* Homework 3.01 */;
 		};
@@ -47,7 +47,7 @@
 		484E784D2CC69B1B0086DD87 /* Homework 3.01 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				484E78732CC69B1D0086DD87 /* Exceptions for "Homework 3.01" folder in "Homework 3.01" target */,
+				484E78AB2CC6C45A0086DD87 /* Exceptions for "Homework 3.01" folder in "Homework 3.01" target */,
 			);
 			path = "Homework 3.01";
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 3.01/Info.plist";
+				INFOPLIST_FILE = "Homework 3.01/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 3.01/Info.plist";
+				INFOPLIST_FILE = "Homework 3.01/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

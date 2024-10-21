@@ -5,4 +5,17 @@
 //  Created by Мария Гетманская on 21.10.2024.
 //
 
-import Foundation
+import SpringAnimation
+
+extension SpringView {
+    func applyAnimation(_ currentAnimation: RandomAnimation) {
+        animation = currentAnimation.preset.rawValue
+        curve = currentAnimation.curve.rawValue
+        force = currentAnimation.force
+        duration = currentAnimation.duration
+        delay = currentAnimation.delay
+        
+        animate()
+    }
+}
+

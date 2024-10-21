@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1U7-cE-084" customClass="SpringView" customModule="SpringAnimation">
-                                <rect key="frame" x="76.666666666666686" y="114" width="240" height="128"/>
+                                <rect key="frame" x="82" y="114" width="229" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqr-4y-u7K">
-                                        <rect key="frame" x="8" y="8" width="224" height="112"/>
+                                        <rect key="frame" x="8" y="8" width="213" height="112"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -35,10 +35,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7M-D7-ctJ" customClass="SpringButton" customModule="SpringAnimation">
-                                <rect key="frame" x="76.666666666666686" y="680.66666666666663" width="240" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="2uH-Hx-zzT"/>
-                                </constraints>
+                                <rect key="frame" x="90" y="680.66666666666663" width="213" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -52,12 +49,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1U7-cE-084" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.610687" id="02D-4e-yXA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1U7-cE-084" secondAttribute="bottom" constant="576" id="ASN-u9-a4F"/>
+                            <constraint firstItem="K7M-D7-ctJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="FDh-G6-shP"/>
                             <constraint firstItem="K7M-D7-ctJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KDA-R1-H8p"/>
                             <constraint firstItem="1U7-cE-084" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SfV-SX-zpH"/>
                             <constraint firstItem="1U7-cE-084" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="UbX-Pf-Kfw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K7M-D7-ctJ" secondAttribute="bottom" multiplier="16:14" id="Xgw-zd-DYt"/>
+                            <constraint firstItem="Fqr-4y-u7K" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="b7g-da-I1k"/>
                         </constraints>
                     </view>
                     <connections>
